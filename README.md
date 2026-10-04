@@ -16,3 +16,4 @@ export PORT=8080
 ./scripts/run.sh
 
 # End of file
+# Port info updated
