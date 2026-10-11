@@ -13,7 +13,7 @@ trap cleanup EXIT
 sleep 1
 
 RESP1=$(curl -s http://localhost:9090/)
-if [ "$RESP1" != "Broken" ]; then
+if [ "$RESP1" != "Hello, World!" ]; then
     echo "Test 1 failed"
     exit 1
 fi
