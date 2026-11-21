@@ -21,7 +21,7 @@ spec:
       containers:
         - name: app
           # 6. your M3 image: ghcr.io/<owner>/<project> in lowercase, a colon, the FULL 40-character SHA
-          image: ghcr.io/madiyaryerlanuly/notes-api:ae4dda36833859dc7d80cbfee8fe7e227abadcd4
+          image: ghcr.io/madiyaryerlanuly/notes-api:b29e11d6d0f384fae0600e9b0e0bc47d26f2beac
           ports:
             - name: http
               containerPort: 8080    # 7. the number your ConfigMap gives PORT
